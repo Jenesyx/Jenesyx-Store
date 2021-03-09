@@ -18,6 +18,10 @@ body {
     direction: ltr;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .container {
     width: 1100px;
     margin: auto;
@@ -155,18 +159,47 @@ body {
 }
 
 #subscribe .header-image {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 /* Why Us */
 #whyus {
     margin-top: 250px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #whyus .item {
-    width: 100px;
-    height: 100px;
-    background: red;
+    width: 30%;
+    /* background: red; */
     display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 14px -3px #000000; 
+    box-shadow: 0px 0px 14px -3px #000000;
+}
+#whyus .item:hover {
+    width: #;
+}
+
+#whyus .logo svg {
+    font-size: 45px;
+    color: blue;
+}
+
+#whyus .title {
+    font-size: 20px;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+#whyus .desc {
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 20px;
 }
