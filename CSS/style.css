@@ -50,7 +50,7 @@ body {
 /* Navigation */
 #nav {
    float: right;
-   padding-top: 30px; 
+   padding-top: 30px;
 }
 
 #nav svg {
@@ -170,8 +170,8 @@ body {
 
 #whyus .item {
     width: 30%;
-    /* background: red; */
-    display: inline-block;
+    /*background: red;
+    */display: inline-block;
     margin: 15px;
     padding: 20px;
     text-align: left;
@@ -180,11 +180,20 @@ body {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    -webkit-box-shadow: 0px 0px 14px -3px #000000; 
+    -webkit-box-shadow: 0px 0px 14px -3px #000000;
     box-shadow: 0px 0px 14px -3px #000000;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
 }
+
 #whyus .item:hover {
-    width: #;
+    width: 31%;
+    padding: 25px;
+    -webkit-box-shadow: 0px 0px 30px -3px #000000; 
+    box-shadow: 0px 0px 30px -3px #000000;
 }
 
 #whyus .logo svg {
@@ -262,6 +271,18 @@ body {
     -o-border-radius: 5px;
     -webkit-box-shadow: 0px 0px 14px -3px #000000;
     box-shadow: 0px 0px 14px -3px #000000;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#posts .post-item:hover {
+    width: 31%;
+    height: 310px;
+    -webkit-box-shadow: 0px 0px 20px -3px #000000;
+    box-shadow: 0px 0px 20px -3px #000000;
 }
 
 #posts .post-image img {
@@ -303,4 +324,66 @@ body {
 
 #posts .post-data .read-more a:hover {
     color: #000;
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+    background: #bec2c8;
+    margin-top: 30px;
+}
+
+#footer .social {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#footer .social li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#footer .social a {
+    color: #424242;
+}
+
+#footer .social a:hover {
+    color: #2b2b2b;
+}
+
+#footer .social svg {
+    font-size: 30px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+#footer .social svg:hover {
+    font-size: 33px;
+}
+
+#footer .copyright {
+    background: #424242;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+
+#footer p {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+#footer .fa-heart {
+    color: #D52A2A;
+}
+
+#footer .fa-coffee {
+    color: #f9ab25;
 }
